@@ -1,0 +1,110 @@
+body {
+    /* background: #A7C7E7; */
+    /* background: linear-gradient(to top, #A7C7E7 50%, #b19cd9 100%); */
+    /* overflow: hidden; */
+  }
+  
+  .block {
+    background: #73695D;
+    background: linear-gradient(180deg, #444035 0%, #444035 22%, #73695D 22%, #73695D 35%, #444035 45%, #444035 60%, #73695D 60%, #73695D 73%, #444035 88%, #444035 98%, #73695D 98%);
+    z-index: 0;
+    position: absolute;
+    left: 150px;
+    width: 100px;
+    min-height: 939px;
+    height: 100vh;
+  }
+  .stairs {
+    display: flex;
+    flex-direction: column;
+    height: 120vh;
+    width: 800px;
+  }
+  .stairs--layer {
+    position: absolute;
+    top: 50px;
+    width: 800px;
+    z-index: 0;
+  }
+  .level {
+    position: relative;
+    display: flex;
+    height: 360px;
+  }
+  .level > * {
+    position: relative;
+    height: 100px;
+  }
+  .level > *:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -97px;
+    width: 100%;
+    height: 95px;
+    background-image: linear-gradient(180deg, transparent 0%, transparent 30%, #404040 30%, #404040 33%, transparent 33%, transparent 63%, #404040 63%, #404040 66%, transparent 66%, transparent 100%);
+    box-shadow: inset -3px 0px 0 0px #404040;
+    background-size: 10% 100%;
+    border-top: 3px solid #404040;
+  }
+  .stairs--layer .level > *:before {
+    content: none;
+  }
+  .level > *:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 100px;
+    background-color: #23261C;
+    width: 100%;
+    height: 75px;
+  }
+  .upper {
+    background: #73695D;
+    width: 40%;
+  }
+  .upper:after {
+    height: 55px;
+  }
+  .stairs--layer .upper:after {
+    height: 75px;
+  }
+  .middle {
+    background: #a69886;
+    transform: skew(0deg, 33deg);
+    transform-origin: left;
+    width: 35%;
+  }
+  .stairs--layer .middle {
+    background: #73695d;
+    transform: skew(0deg, -33deg);
+  }
+  .stairs--layer .middle:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -97px;
+    width: 100%;
+    height: 95px;
+    background-image: linear-gradient(180deg, transparent 0%, transparent 30%, #404040 30%, #404040 33%, transparent 33%, transparent 63%, #404040 63%, #404040 66%, transparent 66%, transparent 100%);
+    box-shadow: inset -3px 0px 0 0px #404040;
+    background-size: 10% 100%;
+    border-top: 3px solid #404040;
+  }
+  .lower {
+    background: #73695D;
+    margin-top: 182px;
+    width: 25%;
+  }
+  .stairs--layer .lower {
+    background: transparent;
+    margin-top: -182px;
+  }
+  .lower:after {
+    transform: skewX(-20deg);
+    left: -14px;
+  }
+  .stairs--layer .lower:after {
+    left: -31px;
+  }
+  

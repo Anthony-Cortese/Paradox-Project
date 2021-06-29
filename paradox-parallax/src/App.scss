@@ -1,0 +1,172 @@
+$grey: #d9d9d9;
+$grey-dark: #404040;
+$shade: #23261c;
+$brown: #a69886;
+$brown-dark: #73695d;
+$brown-shade: #444035;
+
+body {
+	background: #ffcabb;
+	background: linear-gradient(to top, #ffcabb 50%, #f7c0aa 100%);
+	overflow: hidden;
+}
+
+.block {
+	background: $brown-dark;
+	background: linear-gradient(
+		180deg,
+		$brown-shade 0%,
+		$brown-shade 22%,
+		$brown-dark 22%,
+		$brown-dark 35%,
+		$brown-shade 45%,
+		$brown-shade 60%,
+		$brown-dark 60%,
+		$brown-dark 73%,
+		$brown-shade 88%,
+		$brown-shade 98%,
+		$brown-dark 98%
+	);
+	z-index: 0;
+	position: absolute;
+	left: 150px;
+	width: 100px;
+	min-height: 939px;
+	height: 100vh;
+}
+
+.stairs {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	width: 800px;
+
+	&--layer {
+		position: absolute;
+		top: 50px;
+		width: 800px;
+		z-index: 0;
+	}
+}
+
+.level {
+    position: relative;
+    display: flex;
+    height: 360px;
+}
+
+.level > * {
+	position: relative;
+	height: 100px;
+}
+
+.level > *:before {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -97px;
+	width: 100%;
+	height: 95px;
+	background-image: linear-gradient(
+		180deg,
+		transparent 0%,
+		transparent 30%,
+		$grey-dark 30%,
+		$grey-dark 33%,
+		transparent 33%,
+		transparent 63%,
+		$grey-dark 63%,
+		$grey-dark 66%,
+		transparent 66%,
+		transparent 100%
+	);
+	box-shadow: inset -3px 0px 0 0px $grey-dark;
+	background-size: 10% 100%;
+	border-top: 3px solid $grey-dark;
+
+	.stairs--layer & {
+		content: none;
+	}
+}
+
+.level > *:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 100px;
+	background-color: $shade;
+	width: 100%;
+	height: 75px;
+}
+
+.upper {
+	background: $brown-dark;
+	width: 40%;
+}
+
+.upper:after {
+	height: 55px;
+
+	.stairs--layer & {
+		height: 75px;
+	}
+}
+
+.middle {
+	background: $brown;
+	transform: skew(0deg, 33deg);
+	transform-origin: left;
+	width: 35%;
+
+	.stairs--layer & {
+		background: $brown-dark;
+		transform: skew(0deg, -33deg);
+	}
+
+	&:before {
+		.stairs--layer & {
+			content: "";
+			display: block;
+			position: absolute;
+			top: -97px;
+			width: 100%;
+			height: 95px;
+			background-image: linear-gradient(
+				180deg,
+				transparent 0%,
+				transparent 30%,
+				$grey-dark 30%,
+				$grey-dark 33%,
+				transparent 33%,
+				transparent 63%,
+				$grey-dark 63%,
+				$grey-dark 66%,
+				transparent 66%,
+				transparent 100%
+			);
+			box-shadow: inset -3px 0px 0 0px $grey-dark;
+			background-size: 10% 100%;
+			border-top: 3px solid $grey-dark;
+		}
+	}
+}
+
+.lower {
+	background: $brown-dark;
+	margin-top: 182px;
+	width: 25%;
+
+	.stairs--layer & {
+		background: transparent;
+		margin-top: -182px;
+	}
+
+	&:after {
+		transform: skewX(-20deg);
+		left: -14px;
+
+		.stairs--layer & {
+			left: -31px;
+		}
+	}
+}

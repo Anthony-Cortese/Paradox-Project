@@ -1,0 +1,9 @@
+.inception-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* background-color: rgb(110,157,171); */
+    font-family: "Inception";
+    color: red;
+    height: 100vh;
+}

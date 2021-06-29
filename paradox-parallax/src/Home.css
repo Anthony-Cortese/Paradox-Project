@@ -1,0 +1,186 @@
+@import url(//db.onlinewebfonts.com/c/7316502e912d6bbd870b566eabd9380b?family=Paradox+Now);
+/* @font-face {
+  font-family: 'Paradox Mosaic Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Paradox Mosaic Regular'), url('ParadoxMosaic.woff') format('woff');
+  } */
+
+.cube-div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* justify-content: flex-end; */
+    align-items: center;
+    border: 4px solid black;
+    font-family: "Paradox+Now";
+    background-color: blanchedalmond;
+}
+
+.title-div {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  font-size: 38px;
+  font-weight: lighter;
+}
+
+.paradox-info {
+  width: 50%
+}
+:root {
+    --color-primary: #FFB23C;
+    --color-primary-dark: #000000;
+    --color-primary-light: #FFD928;
+    --color-secondary: #2c3e50;
+  
+    --cube-size: 3.5rem;
+    --cube-margin: calc(var(--cube-size) + 1rem);
+    height: 100%;
+  }
+
+/* body {
+    height: 100%;
+    background: linear-gradient(-45deg, #ef954e 10%, #FF4F4D 90%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  } */
+  
+  
+  .container {
+    position: relative;
+    width: calc(4 * var(--cube-size) );
+    height: calc(5 * var(--cube-size));
+  }
+  
+  .cube-container {
+    width: var(--cube-size);
+    height: var(--cube-size);
+    perspective: 45rem;
+    position: absolute;
+  }
+  
+  .cube-container:nth-child(1) {
+    left: 0;
+    top: 0;
+    z-index: 6;
+  }
+  
+  .cube-container:nth-child(2) {
+    left: 0;
+    top: var(--cube-margin);
+    z-index: 5;
+  }
+  
+  .cube-container:nth-child(3) {
+    left: 0;
+    top: calc(var(--cube-margin) * 2);
+    z-index: 4;
+  }
+  
+  .cube-container:nth-child(4) {
+    left: 0;
+    top: calc(var(--cube-margin) * 3);
+    z-index: 3;
+  }
+  
+  .cube-container:nth-child(5) {
+    left: var(--cube-size);
+    top: calc(var(--cube-margin) / 2);
+    z-index: 7;
+  }
+  
+  .cube-container:nth-child(6) {
+    left: calc(var(--cube-size) * 2);
+    top: var(--cube-margin);
+    z-index: 8;
+  }
+  
+  .cube-container:nth-child(7) {
+    left: calc(var(--cube-size) * 3);
+    top: calc(var(--cube-margin) * 1.5);
+    z-index: 11;
+  }
+  
+  .cube-container:nth-child(8) {
+    left: calc(var(--cube-size) * 2);
+    top: calc(var(--cube-margin) * 2);
+    z-index: 1;
+  }
+  
+  .cube-container:nth-child(9) {
+    left: var(--cube-size);
+    top: calc(var(--cube-margin) * 2.5);
+    z-index: 2;
+  }
+  
+  .ball {
+    width: 0.85rem;
+    height: 0.85rem;
+    background: var(--color-secondary);
+    position: absolute;
+    z-index: 15;
+    border-radius: 50%;
+    left: calc(var(--cube-size) * 2 + 1.3rem);
+    top: calc(var(--cube-margin) - 0.2rem);
+  }
+  
+  .overlay-1 {
+    left: calc(var(--cube-size) * 3);
+    top: calc(var(--cube-margin) * 1.5);
+    z-index: 10;
+  }
+  
+  .overlay-1 .cube__face:nth-child(2) {
+    height: calc(var(--cube-size) / 2);
+  }
+  
+  .overlay-2 {
+    left: calc(var(--cube-size) * 2);
+    top: calc(var(--cube-margin) * 2);
+    z-index: 11;
+  }
+  
+  .overlay-2 .cube__face:nth-child(2) {
+    visibility: hidden;
+  }
+  
+  .overlay-2 .cube__face:nth-child(1) {
+    background: linear-gradient(-45deg, var(--color-primary) 70%, transparent 70%);
+  
+  }
+  
+  
+  .cube {
+    position: relative;
+    width: var(--cube-size);
+    height: var(--cube-size);
+    transform-style: preserve-3d;
+    transform: rotateX(-30deg) rotateY(45deg);
+  }
+  
+  .cube__face {
+    position: absolute;
+    width: var(--cube-size);
+    height: var(--cube-size);
+  }
+  
+  .cube__face:nth-child(1){
+    transform: rotateX(90deg) translateZ(calc(var(--cube-size) / 2));
+    background: var(--color-primary);
+  }
+  
+  .cube__face:nth-child(2){
+    transform: rotateY(-90deg) translateZ(calc(var(--cube-size) / 2));
+    background: var(--color-primary-dark);
+  }
+  
+  .cube__face:nth-child(3){
+    transform: translateZ(calc(var(--cube-size) / 2));
+    background: var(--color-primary-light);
+  }
