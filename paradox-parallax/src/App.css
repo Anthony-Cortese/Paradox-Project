@@ -20,6 +20,15 @@
   border: 8px solid red;
 }
 
+.parallax2 {
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-perspective: 1px;
+  perspective: 1px;
+  border: 8px solid blue;
+}
+
 .parallax__layer {
   /* position: absolute; */
   top: 0;
@@ -82,7 +91,7 @@ body {
 
 }
 .parallax__layer--base{
-  /* padding: 0 400vw; */
+  /* padding: 0 100vw; */
 }
 .parallax__layer--base .background {
   top: 0;
@@ -99,7 +108,7 @@ body {
 
 .stairs-div {
   display: flex;
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   border: 4px solid red;
   position: relative;
@@ -107,16 +116,30 @@ body {
 }
 
 .scifi-div {
-  height: 120vh;
+  height: 100vh;
   background-color: springgreen;
+  position: relative;
+  top: 2vh
+}
+
+.type-div {
+  height: 160vh;
+  position: relative;
+  top: 5vh;
 }
 
 .mcescher-div {
-  min-height: 100vh;
+  height: 80vh;
     width: 100%;
-    border: 4px solid orange;
-    background: linear-gradient(to left, #898989 50%, #353535 100%);
+    /* border: 4px solid orange; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background: url() 0 0 no-repeat, radial-gradient(ellipse at center, rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%) */
     
+    /* background: linear-gradient(to left, #898989 50%, #353535 100%); */
+    background-blend-mode: multiply;
 }
 
 

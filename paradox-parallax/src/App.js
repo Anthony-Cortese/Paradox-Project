@@ -8,23 +8,28 @@ import Stairs from "./Stairs";
 import Types from "./Types";
 import Inception from "./Inception";
 import Navbar from "./Navbar";
-import Why from "./Why";
+import Penrose from "./Penrose";
 import SciFi from "./SciFi";
+import Music from "./Music";
+import Why from "./Why";
+import Card from "./Card";
 
 function App() {
   return (
     <div className="main-div">
       <Navbar />
       <Route exact path="./why">
-        <Stairs />
+        {/* <Stairs /> */}
       </Route>
 
       <div className="parallax">
         <div className="parallax__layer parallax__layer--deep">
           <div className="cubes-front">
-            <Route exact path="/">
-              <Home />
-            </Route>
+            <Switch>
+              <Route exact path="/">
+                <Home />
+              </Route>
+            </Switch>
           </div>
 
           <div className="background"></div>
@@ -35,36 +40,51 @@ function App() {
           </div>
           <div className="background"></div>
         </div>
-        <div className="parallax__layer parallax__layer--base">
+        <div className="parallax__layer parallax__layer--back">
           <div className="scifi-div">
             <SciFi />
           </div>
+
           <div className="background"></div>
         </div>
-        <div className="parallax__layer parallax__layer--back">
+
+        <div className="parallax__layer parallax__layer--base">
           <div className="mcescher-div">
             <Artist />
           </div>
           <div className="background"></div>
         </div>
-        <div className="parallax__layer parallax__layer--back">
+        <div className="parallax__layer parallax__layer--base">
           <div className="inception">
             <Inception />
           </div>
+
           <div className="background"></div>
         </div>
         <div className="parallax__layer parallax__layer--deep">
           <div className="stairs-div">
-            <Why />
+            <Penrose />
+          </div>
+
+          <div className="background"></div>
+        </div>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="stairs-div">
+            <Music />
+          </div>
+          <div className="background"></div>
+        </div>
+        <div className="parallax__layer parallax__layer--base">
+          <div className="stairs-div">
+            <Card />
           </div>
           <div className="background"></div>
         </div>
       </div>
-      <Switch>
-        <Route path="./why">
-          <Stairs />
-        </Route>
-      </Switch>
+
+      <Route path="./why">
+        <Why />
+      </Route>
     </div>
   );
 }

@@ -42,106 +42,14 @@ function Home() {
           </div>
           <div className="triangle">
             <img
-              src="https://i.ibb.co/8MmbbKg/kisspng-penrose-triangle-waterfall-geometry-impossible-obj-3d-triangle-png-5ab1c11dd86ef0-4522297815.jpg"
-              alt="kisspng-penrose-triangle-waterfall-geometry-impossible-obj-3d-triangle-png-5ab1c11dd86ef0-4522297815"
+              className="pen-tri"
+              src="https://i.ibb.co/Jqw1zfD/Background-copy.png"
+              alt="Background-copy"
               border="0"
             />
           </div>
         </div>
       </div>
-      {/* 
-      <div className="cube-div">
-
-        <div className="container">
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="overlay-1 cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-
-          <div className="overlay-2 cube-container">
-            <div className="cube">
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-              <div className="cube__face"></div>
-            </div>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }

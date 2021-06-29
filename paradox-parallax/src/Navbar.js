@@ -8,8 +8,9 @@ function Navbar() {
       <div className="navbar-title">
         <Link to="./">
           <img
-            src="https://i.ibb.co/tXmg7DS/paradox.png"
-            alt="paradox"
+            className="paradox-img"
+            src="https://i.ibb.co/0K4J3j7/paradox12.png"
+            alt="paradox12"
             border="0"
           />
         </Link>

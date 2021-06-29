@@ -1,16 +1,49 @@
 import React from "react";
-import "./Why.css";
-import "./Stairs.css";
 
 function Why() {
   return (
-    <div className="why-div">
-      <div className="inception-img">
-        <img
-          src="https://i.ibb.co/NsgGXhF/Penrose.png"
-          alt="Penrose"
-          border="0"
-        />
+    <div className="stairs-div">
+      <div className="stairs stairs--layer">
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+      </div>
+      <div className="block"></div>
+      <div className="stairs">
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
+        <div className="level">
+          <div className="upper"></div>
+          <div className="middle"></div>
+          <div className="lower"></div>
+        </div>
       </div>
       <div className="statement">
         <h3 className="h3-headers">To begin with,</h3>

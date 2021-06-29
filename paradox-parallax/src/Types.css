@@ -1,6 +1,6 @@
 .types-div {
-    height: 100vh;
+    height: 140vh;
     width: 100%;
-    top: 50vh;
+    /* top: 10vh; */
     background-color: cornflowerblue;
 }

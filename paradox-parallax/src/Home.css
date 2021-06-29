@@ -18,6 +18,14 @@
     background-color: blanchedalmond;
 }
 
+.triangle {
+  border: 3px solid red;
+}
+.pen-tri {
+  height: 20rem;
+  width: 20rem;
+}
+
 .title-div {
 
   display: flex;
