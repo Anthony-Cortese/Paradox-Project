@@ -49,6 +49,14 @@ function Artist() {
           border="0"
         />
       </div>
+      <div className="new-slide">
+        <p>
+          The best known examples of Penrose stairs appears in a couple of
+          famous lithographs by M.C. Escher and this brings us to Christopher
+          Nolan’s Inception, a film that is billed as a story about dreams but
+          also delves deeper into our fascination with paradox.
+        </p>
+      </div>
     </div>
   );
 }

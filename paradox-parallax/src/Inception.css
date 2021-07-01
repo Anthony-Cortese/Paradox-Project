@@ -5,7 +5,7 @@
     /* background-color: rgb(110,157,171); */
     font-family: "Inception";
     color: red;
-    height: 80vh;
+    height: 120vh;
     background-color: royalblue;
     border: 4px solid white;
     position: relative;
@@ -19,12 +19,15 @@
     /* justify-content: center; */
     /* border: 3px salmon; */
     width: 40%;
+    /* border: 2px solid red; */
+    position: relative;
+    top: 7rem;
 
 }
 
 
 .inception-title {
-    font-size: 72px;
+    font-size: 90px;
 }
 
 .penrose-stairs {
@@ -40,4 +43,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
+    top: 11rem;
 }

@@ -7,6 +7,15 @@ function SciFi() {
       <div className="scifi-info">
         <h1>Science Fiction Paradox</h1>
         <h2>Time Travel</h2>
+        <h5>
+          A temporal paradox, time paradox, or time travel paradox is a paradox,
+          an apparent contradiction, or logical contradiction associated with
+          the idea of time and time travel. In physics, temporal paradoxes fall
+          into two broad groups: consistency paradoxes exemplified by the
+          grandfather paradox; and causal loops.[1] Other paradoxes associated
+          with time travel are a variation of the Fermi paradox and paradoxes of
+          free will that stem from causal loops such as Newcomb's paradox.
+        </h5>
       </div>
       <div className="sci-fi">
         <div className="loops"></div>

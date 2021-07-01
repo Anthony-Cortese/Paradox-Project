@@ -33,12 +33,6 @@ function Inception() {
             the establishment or starting point of an institution or activity.
           </p>
         </p>
-        <p>
-          The best known examples of Penrose stairs appears in a couple of
-          famous lithographs by M.C. Escher (see top image) and this brings us
-          to Christopher Nolan’s Inception, a film that is billed as a story
-          about dreams but also delves deeper into our fascination with paradox.
-        </p>
       </div>
     </div>
   );

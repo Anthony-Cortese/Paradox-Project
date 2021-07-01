@@ -170,13 +170,4 @@ You wouldn’t generally need to write a logical paradox. It can be helpful in f
 When to use paradox
 Literary paradoxes can be very helpful in creative writing, especially when you’re building a main character. If you’re writing a short story about a hero, for example, you don’t want that hero to be too simplistic – simplistic characters tend not to be very interesting. So combine the heroic attributes with other qualities that seem contradictory. If your hero is brave, for example, give him or her a phobia of some kind (e.g. Indiana Jones is terrified of snakes); or if your hero is the leader of a close-knit group, make him or her seem somehow lonely and isolated despite their presence (e.g. Mal Reynols from Firefly). It’s a great way to make the hero seem complex and relatable, and it also helps draw readers into the story by making them curious – when we see paradoxical characters like this, we’re more likely to keep reading so we can “figure them out.”
 
-The Bootstrap Paradox
-
-I’ve seen a lot of stuff on here talking about how this film is perfect and no paradoxes. While Nolan covers his bases with the grandfather paradox, he forgets about the bootstrap paradox.
-
-For those that don’t know, the bootstrap paradox goes like this. A time traveler really likes Beethoven, so he goes back in time to meet him. When the time traveler arrives, he discovers that Beethoven isn’t there, he seemingly doesn’t exist. Luckily the time traveler brought his copies of Beethoven’s music to be signed. So he takes some modern day paper and ink and copies all of the music down and publishes the music under the name Beethoven. The time traveler effectively becomes Beethoven. So now the question is, who wrote Beethoven’s 5th?
-
-Tenet(2020) Here’s where we get to the bootstrap in Tenet. From my interpretation of the film, the Protagonist goes and starts Tenet and Prosperity and all of that. Why? Because he knew they existed in the past, so they had to be created in the future. But then where does the idea of Tenet come from? Also, there are a few times where before they go into the portal, it almost seems as if they don’t think about going in until themselves on the other side. Bootstrap paradox, the idea was never created, it was alert there.
-
-“The past is obdurate. It doesn’t want to change.”
--Stephen King from the book 11/22/63
+@import url(//db.onlinewebfonts.com/c/aa1b70728a52802e6d018bdb52b526cf?family=Bauhaus+Modern);

@@ -30,3 +30,11 @@
     height: 40vh;
     width: 20vw;
 }
+
+.new-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: 2px solid red;
+    height: 35%;
+}
