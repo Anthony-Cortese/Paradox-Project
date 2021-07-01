@@ -1,6 +1,7 @@
 .types-div {
     height: 120vh;
     width: 100%;
-    /* top: 10vh; */
-    background-color: cornflowerblue;
+    position: relative;
+    top: 45vh;
+    background-color: #88AED0;
 }

@@ -8,6 +8,8 @@ import Penrose from "./Penrose";
 import SciFi from "./SciFi";
 import Music from "./Music";
 import Card from "./Card";
+import Time from "./Time";
+import Loop from "./Loop";
 
 function HomePage() {
   return (
@@ -19,13 +21,12 @@ function HomePage() {
 
         <div className="background">{/* <Inception /> */}</div>
       </div>
-      <div className="parallax__layer parallax__layer--base">
-        <div className="type-div">
-          <Types />
-        </div>
+      <div className="parallax__layer parallax__layer--back">
+        <Types />
+
         <div className="background"></div>
       </div>
-      <div className="parallax__layer parallax__layer--back">
+      <div className="parallax__layer parallax__layer--base">
         <div className="scifi-div">
           <SciFi />
         </div>
@@ -33,27 +34,34 @@ function HomePage() {
         <div className="background"></div>
       </div>
 
+      <div className="parallax__layer parallax__layer--back">
+        {/* <Artist /> */}
+        <Time />
+
+        <div className="background"></div>
+      </div>
+
+      <div className="parallax__layer parallax__layer--deep">
+        <div className="mcescher-div">
+          <Loop />
+        </div>
+        <div className="background"></div>
+      </div>
+
       <div className="parallax__layer parallax__layer--base">
         <div className="mcescher-div">
           <Artist />
         </div>
+      </div>
+      <div className="parallax__layer parallax__layer--back">
+        <Inception />
+
         <div className="background"></div>
       </div>
       <div className="parallax__layer parallax__layer--base">
-        <div className="stairs-div">
+        {/* <div className="stairs-div">
           <Music />
-        </div>
-
-        <div className="background"></div>
-      </div>
-      <div className="parallax__layer parallax__layer--deep">
-        <div className="stairs-div">
-          <Inception />
-        </div>
-
-        <div className="background"></div>
-      </div>
-      <div className="parallax__layer parallax__layer--base">
+        </div> */}
         <div className="stairs-div">
           <Penrose />
         </div>

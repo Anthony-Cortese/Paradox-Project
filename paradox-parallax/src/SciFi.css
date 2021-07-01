@@ -1,11 +1,11 @@
 .sci-fi {
-    background-color: springgreen;
+    background-color: #96B9D0;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom: 5rem;
+    /* bottom: 5rem; */
 
 }
 

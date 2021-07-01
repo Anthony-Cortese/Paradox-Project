@@ -3,7 +3,7 @@ import "./Stairs.css";
 
 function Stairs() {
   return (
-    <div className="stairs-div">
+    <div>
       {/* <div className="stairs stairs--layer">
         <div className="level">
           <div className="upper"></div>
@@ -47,7 +47,7 @@ function Stairs() {
         </div>
       </div> */}
 
-      <div className="statement">
+      <div className="why-paradox">
         <h3 className="h3-headers">To begin with,</h3>
         <p className="why-info">
           My favorite film has always been Inception, that is where my

@@ -1,0 +1,27 @@
+.loop-div {
+    height: 100vh;
+    width: 100%;
+    background-color:#A4C3D2 ;
+    position: relative;
+    top: 22vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-end; */
+
+}
+
+.loop-info {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 2px solid salmon; */
+    height: auto;
+
+}
+
+.casual {
+    justify-content: flex-end;
+    position: relative;
+    left: 50vw;
+    width: 50%;
+    /* border: 2px solid salmon; */
+}

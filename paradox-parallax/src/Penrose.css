@@ -1,6 +1,6 @@
 .why-div {
     /* border: 8px solid yellow; */
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -9,14 +9,17 @@
     background-color: lightskyblue;
     /* opacity: .8; */
     position: relative;
-    bottom: 7vh;
+    bottom: 20vh 
+    /* bottom: 7vh; */
    
     
 }
 
 .inception-img {
-    height: 50vh;
-    width:40vw;
+    height: 60vh;
+    width:50vw;
+    position: relative;
+    left: 7vw;
 }
 .why-div {
     display: flex;
