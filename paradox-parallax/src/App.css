@@ -1,5 +1,10 @@
 @import url(//db.onlinewebfonts.com/c/0ae0673edd2fd211e4dc52a1275e0b87?family=Inception);
 @import url(//db.onlinewebfonts.com/c/0f1b96ffaf193ffaf5c53fc394d54125?family=Lusta);
+
+/* @font-face {
+  font-family: "ACFramedInverted" ;
+  src: url("ACFramedInverted.otf") format("opentype");
+} */
 * {
   /* font-family: "Inception"; */
 }
@@ -7,7 +12,7 @@
   /* display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: turquoise;*/
+  background-color: turquoise; */
 }
 
 .parallax {
@@ -20,14 +25,6 @@
   border: 8px solid red;
 }
 
-.parallax2 {
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  -webkit-perspective: 1px;
-  perspective: 1px;
-  border: 8px solid blue;
-}
 
 .parallax__layer {
   /* position: absolute; */
@@ -47,6 +44,10 @@
 
 .parallax__layer--deep {
   transform: translateZ(-2px) scale(3);
+}
+
+.parallax__layer--middle {
+  transform: translateZ(-3px); 
 }
 
 /* add some padding to force scrollbars */
@@ -74,7 +75,7 @@ body {
   left: 0;  
   background-repeat: repeat-x;
   background-position: top center;  
-  /* background-size: 100vh; */
+  background-size: 80vh;
 }
 
 .parallax__layer--back {
@@ -87,7 +88,7 @@ body {
   left: 0;  
   background-repeat: repeat-x;
   background-position: bottom center;  
-  /* background-size: 110vh; */
+  background-size: 110vh;
 
 }
 .parallax__layer--base{
@@ -100,7 +101,7 @@ body {
   left: 0;
   background-repeat: repeat-x;
   background-position: bottom center;  
-  /* background-size: 100vh;   */
+  background-size: 100vh;
   
 
 }
@@ -116,16 +117,16 @@ body {
 }
 
 .scifi-div {
-  height: 100vh;
+  height: 120vh;
   background-color: springgreen;
-  position: relative;
-  top: 2vh
+  /* position: relative;
+  top: 10vh */
 }
 
 .type-div {
-  height: 160vh;
+  height: 180vh;
   position: relative;
-  top: 5vh;
+  top: 8vh;
 }
 
 .mcescher-div {

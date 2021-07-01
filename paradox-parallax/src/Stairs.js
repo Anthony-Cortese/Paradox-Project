@@ -4,7 +4,7 @@ import "./Stairs.css";
 function Stairs() {
   return (
     <div className="stairs-div">
-      <div className="stairs stairs--layer">
+      {/* <div className="stairs stairs--layer">
         <div className="level">
           <div className="upper"></div>
           <div className="middle"></div>
@@ -45,7 +45,7 @@ function Stairs() {
           <div className="middle"></div>
           <div className="lower"></div>
         </div>
-      </div>
+      </div> */}
 
       <div className="statement">
         <h3 className="h3-headers">To begin with,</h3>
@@ -74,31 +74,6 @@ function Stairs() {
           everything I have come to learn about the simple Paradox!
         </p>
       </div>
-
-      {/* <div className="stairs-info">
-        <h1>Paradoxical Architecture</h1>
-        <h3>
-          Arthur: In a dream you can cheat architecture into impossible shapes.
-          That lets you create closed loops, like the Penrose steps. The
-          infinite staircase. See...
-        </h3>
-        <h3>
-          [The staircase he and Ariadne have been climbing up suddenly shifts
-          up.]
-        </h3>
-        <h3>
-          Arthur: ...paradox. So a closed loop liked that will help you disguise
-          the boundaries of the dream you create.
-        </h3>
-        <p>
-          In one dream sequence, Arthur (Joseph Gordon-Levitt) uses the Penrose
-          stairs to show Ariadne (Ellen Page) how to disguise the boundaries of
-          the dreams she built as a novice architect. From a certain
-          perspective, the staircase appears to climb or descend infinitely, but
-          look differently and you can see they cut off abruptly. Arthur calls
-          this “paradoxical architecture.”
-        </p>
-      </div> */}
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import "./Stairs.css";
 
 function Why() {
   return (
