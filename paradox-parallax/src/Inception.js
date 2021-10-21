@@ -5,7 +5,7 @@ function Inception() {
     <div className="inception-div">
       <div className="penrose-stairs">
         <div className="stairs-info">
-          <p>
+          <p className="inception-font">
             {" "}
             Scenes in the film look like M. C. Escher’s work set in both real
             and alternate worlds. The plot blurs realities, captures the
@@ -26,10 +26,10 @@ function Inception() {
       </div>
       <div className="inception-info">
         <h1 className="inception-title">INCEPTION</h1>
-        <p>
+        <p className="descriptions">
           in·cep·tion
-          <p>/inˈsepSH ə n/ </p>
-          <p>
+          <p className="descriptions">/inˈsepSH ə n/ </p>
+          <p className="descriptions">
             the establishment or starting point of an institution or activity.
           </p>
         </p>

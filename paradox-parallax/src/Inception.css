@@ -27,7 +27,8 @@
 
 
 .inception-title {
-    font-size: 90px;
+    font-size: 100px;
+    font-weight:550;
 }
 
 .penrose-stairs {
@@ -45,4 +46,131 @@
     justify-content: center;
     position: relative;
     top: 11rem;
+}
+
+@media (max-width: 1250px) {
+    .inception-title {
+        font-size: 85px;
+        font-weight:550;
+    }
+}
+
+@media (max-width: 1050px) {
+    .inception-title {
+        font-size: 70px;
+        font-weight:550;
+    }
+
+    .inception-font {
+        font-size: 12px; 
+    }
+}
+
+@media (max-width: 870px) {
+    .inception-title {
+        font-size: 58px;
+    }
+}
+
+@media (max-width: 730px) {
+    .descriptions {
+        display: none;
+    }
+
+    .inception-title {
+        font-size: 85px;
+        font-weight:550;
+    }
+    
+
+    .inception-div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 135vh;
+        /* width: 75%; */
+        /* bottom: 1vh; */
+    }
+
+    .inception-info {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* border: 3px salmon; */
+        width: 75%;
+        /* border: 2px solid red; */
+        position: relative;
+        bottom: 50%
+    
+    }
+
+    .inception-title {
+        position: relative;
+        bottom: 24rem;
+        width: 75%;
+        left: .5rem;
+    }
+
+    .penrose-stairs {
+        width: 80%;
+        position: relative;
+        bottom: 40%;
+
+    }
+    
+    .img-stairs {
+        width: 70%;
+        height: 70%;
+        /* position: relative; */
+        /* top: 5rem; */
+    }
+
+    .stairs-info {
+        align-items: center;
+    }
+
+    .inception-font {
+        font-size: 16px; 
+    }
+}
+
+@media (max-width: 600px) {
+    .inception-title {
+        font-size: 66px;
+        bottom: 19rem; 
+    }
+
+    .stairs-info {
+        align-items: center;
+        top: 14rem;
+    }
+
+    .inception-div {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 120vh;
+        /* width: 75%; */
+        /* bottom: 1vh; */
+    }
+}
+
+@media (max-width: 500px) {
+    .inception-title {
+        font-size: 56px;
+        left: .1rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .inception-title {
+        font-size: 44px;
+        right: 5rem;
+    }
+
+    .inception-font {
+        font-size: 12px; 
+    }
 }

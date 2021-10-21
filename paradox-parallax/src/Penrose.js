@@ -7,6 +7,7 @@ function Why() {
     <div className="why-div">
       <div className="inception-img">
         <img
+          className="pen-stairs"
           src="https://i.ibb.co/NsgGXhF/Penrose.png"
           alt="Penrose"
           border="0"

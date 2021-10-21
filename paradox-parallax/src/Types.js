@@ -1,6 +1,5 @@
 import React from "react";
 import "./Types.css";
-import "./Types.scss";
 
 function Types() {
   return (
@@ -52,13 +51,6 @@ function Types() {
           reader through humor or a sense of realism due to the complexity and
           often contradictory ways in which humans behave.
         </p>
-      </div>
-      <div className="book">
-        <img
-          className="cover"
-          src="http://www.coverbrowser.com/image/batman-dark-knight-returns/1-1.jpg"
-          alt="book"
-        />
       </div>
     </div>
   );

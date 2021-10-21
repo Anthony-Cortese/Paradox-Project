@@ -8,7 +8,7 @@
     position: relative;
     /* top: 10vh; */
     border: 4px solid black;
-    font-family: "Paradox Mosaic"
+    font-family: "Paradox Mosaic";
     /* background: url()  */
     /* background: radial-gradient(ellipse at center, rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); */
     /* background: linear-gradient(to left, #898989 50%, #353535 100%); */
@@ -26,6 +26,7 @@
 
 .mc-font {
     font-size: 55px;
+    
 }
 
 .artist-info {
@@ -54,6 +55,8 @@
     height: 40vh;
     width: 20vw;
 }
+
+
 
 .new-slide {
     display: flex;

@@ -9,6 +9,7 @@ import HomePage from "./HomePage";
 import Navbar from "./Navbar";
 
 import Why from "./Why";
+import Book from "./Book";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Route exact path="/why">
         <Stairs />
       </Route>
+      {/* <Book /> */}
       <Route exact path="/">
         <HomePage />
       </Route>

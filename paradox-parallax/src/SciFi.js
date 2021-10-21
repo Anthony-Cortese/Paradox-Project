@@ -3,9 +3,9 @@ import "./SciFi.css";
 
 function SciFi() {
   return (
-    <div>
+    <div className="sci-fi">
       <div className="scifi-info">
-        <h1>Science Fiction Paradox</h1>
+        <h1 className="sci-title">Science Fiction Paradox</h1>
         <h2>Time Travel</h2>
         <h5>
           A temporal paradox, time paradox, or time travel paradox is a paradox,
@@ -17,11 +17,11 @@ function SciFi() {
           free will that stem from causal loops such as Newcomb's paradox.
         </h5>
       </div>
-      <div className="sci-fi">
+      <div className="sci-fi1">
         <div className="loops"></div>
 
         <div className="predest">
-          <h4>The Predestination Paradox</h4>
+          <h4 className="hawke">The Predestination Paradox</h4>
           <p>
             A predestination paradox, also called either a causal loop, or a
             causality loop, and (less frequently) either a closed loop or closed
@@ -36,11 +36,11 @@ function SciFi() {
             is regardless of the time traveler's intentions or efforts to
             preserve their personal experience, or knowledge, of events.
           </p>
-          <img
+          {/* <img
             src="https://i.ibb.co/Fq0zBjz/Predestination.png"
             alt="Predestination"
             border="0"
-          />
+          /> */}
         </div>
         <div className="bootstrap">
           <h4>The Bootstrap Paradox</h4>

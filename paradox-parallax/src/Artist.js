@@ -44,6 +44,7 @@ function Artist() {
           alt="Esche-Relativity"
           border="0"
         />
+
         <img
           className="img1"
           src="https://i.ibb.co/y6vgKcV/The-paradox-described-by-the-famous-artist-Escher-s-Art-Gallery.jpg"

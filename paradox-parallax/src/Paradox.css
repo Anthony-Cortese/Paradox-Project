@@ -21,7 +21,7 @@
 }
 
 .triangle {
-/* border: 3px solid red; */
+  width: 50%
 }
 .pen-tri {
 height: 20rem;
@@ -34,9 +34,20 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center; 
-font-size: 28px;
+font-size: 24px;
 font-weight: lighter;
-width: 60%;
+width: 50%;
+height: 70%;
+position: relative;
+bottom: 4rem;
+}
+
+.para-title {
+  font-size: 65px;
+}
+
+.pro {
+  font-size: 40px;
 }
 
 .paradox-info {
@@ -53,6 +64,66 @@ width: 50%
   height: 100%;
 }
 
+@keyframes rotate {
+  from {
+    transform: translate3d(-6.6vw, -3vw, 0) rotate3d(0, 0, 1, 0deg);
+  }
+  to {
+    transform: translate3d(-6.6vw, -3vw, 0) rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+.penrose-triangle {
+  display: block;
+  width: 20rem;
+  height: 20rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  position: relative;
+  transform-origin: 13.3rem 11.5rem;
+  animation: rotate 30s linear infinite;
+
+  filter: drop-shadow(0 0 4rem rgba(black, 0.2));
+}
+  .side {
+    display: block;
+    width: 20rem;
+    height: 20rem;
+    position: absolute;
+    clip-path: polygon(57% 0, 75% 0, 26% 85%, 89.5% 85%, 98.4% 100%, 0 100%);
+    transition: background-color 1s ease;
+  }
+    .side:nth-of-type(1) {
+      top: 0;
+      left: 0;
+      transform: rotate(0deg);
+      background-color: #c71585;
+    }
+
+    .side:nth-of-type(2) {
+      top: 18.3%;
+      left: 43.3%;
+      transform: rotate(120deg);
+      background-color: #8a0b84;
+    }
+
+    .side:nth-of-type(3) {
+      top: 46.5%;
+      left: 5.9%;
+      transform: rotate(240deg);
+      background-color: #4b0082;
+    }
+
+    .side:nth-of-type(1):hover,
+    .side:nth-of-type(2):hover,
+    /* .side:nth-of-type(3):hover {
+      background: {
+        image: url(http://aepicos.com/codepen/images/space-bg.gif);
+        size: cover;
+      } */
+
+
+
 /* body {
   height: 100%;
   background: linear-gradient(-45deg, #ef954e 10%, #FF4F4D 90%);
@@ -62,7 +133,9 @@ width: 50%
   overflow: hidden;
 } */
 
-
+.para-para {
+  font-size: 20px;
+}
 .container {
   position: relative;
   width: calc(4 * var(--cube-size) );
@@ -194,4 +267,219 @@ width: 50%
 .cube__face:nth-child(3){
   transform: translateZ(calc(var(--cube-size) / 2));
   background: var(--color-primary-light);
+}
+
+@media (max-width: 1200px) {
+  .paradox-info {
+    width: 45%
+    }
+
+  .triangle {
+    width: 60%
+  }
+  .para-para {
+    font-size: 15px;
+  }
+
+  .para-title {
+    font-size: 50px;
+  }
+  
+  .pro {
+    font-size: 30px;
+  }
+  
+  .paradox-info {
+  width: 50%
+  }
+
+  .penrose-triangle {
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .side {
+    height: 15rem;
+    width: 15rem;
+  }
+
+}
+
+@media (max-width: 850px) {
+  .paradox-info {
+    width: 40%
+    }
+
+  .triangle {
+    width: 65%
+  }
+  .para-para {
+    font-size: 13px;
+  }
+
+  .para-title {
+    font-size: 40px;
+  }
+  
+  .pro {
+    font-size: 20px;
+  }
+  
+  .paradox-info {
+  width: 50%
+  }
+
+  .penrose-triangle {
+    height: 13rem;
+    width: 13rem;
+  }
+
+  .side {
+    height: 13rem;
+    width: 13rem;
+  }
+
+}
+
+@media (max-width: 600px) {
+  .cube-div {
+    flex-direction: column-reverse;
+    justify-content: ;
+
+
+  }
+  .title-div {
+    width: 80%;
+    height: 50%
+    }
+
+    .paradox-info {
+      min-width: 80%;
+      position: relative;
+      bottom: 5rem;
+      }
+
+  .triangle {
+    width: 50%;
+    height: 40%;
+    position: relative;
+    right: 5%;
+
+  }
+  .para-para {
+    font-size: 12px;
+  }
+
+  .para-title {
+    font-size: 40px;
+  }
+  
+  .pro {
+    font-size: 20px;
+  }
+  
+  .paradox-info {
+  width: 50%
+  }
+
+  .penrose-triangle {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  .side {
+    height: 11rem;
+    width: 11rem;
+  }
+
+  @keyframes rotate {
+    from {
+      /* transform: translate3d(-2.4vw, -1.5vw, 0) rotate3d(0, 0, .5, 0deg); */
+    }
+    to {
+      /* transform: translate3d(-2.4vw, -1.5vw, 0) rotate3d(0, 0, .5, 360deg); */
+    }
+  }
+
+}
+
+@media (max-width: 450px) {
+  .title-div {
+    width: 80%;
+    height: 53%
+    }
+
+    .triangle {
+      width: 50%;
+      height: 50%;
+      position: relative;
+      right: 10%;
+      top: 1rem;
+}
+.penrose-triangle {
+  height: 9rem;
+  width: 9rem;
+}
+
+.side {
+  height: 9rem;
+  width: 9rem;
+}
+}
+
+@media (max-width: 360px) {
+  .cube-div {
+    flex-direction: column-reverse;
+    justify-content: ;
+
+
+  }
+  .title-div {
+    width: 80%;
+    height: 33%
+    }
+
+    .paradox-info {
+      min-width: 80%;
+      position: relative;
+      bottom: 7rem;
+      }
+
+  .triangle {
+    width: 50%;
+    height: 65%;
+    position: relative;
+    right: 10%;
+
+  }
+  .para-para {
+    font-size: 12px;
+  }
+
+  .what {
+    font-size: 15px;
+  }
+
+  .para-title {
+    font-size: 24px;
+  }
+  
+  .pro {
+    font-size: 14px;
+  }
+  
+  .paradox-info {
+  width: 50%
+  }
+
+  .penrose-triangle {
+    height: 7rem;
+    width: 7rem;
+  }
+
+  .side {
+    height: 7rem;
+    width: 7rem;
+  }
+
 }
