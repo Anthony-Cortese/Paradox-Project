@@ -5,7 +5,9 @@
   font-weight: normal;
   src: local('Paradox Mosaic Regular'), url('ParadoxMosaic.woff') format('woff');
   } */
+  @import url(//db.onlinewebfonts.com/c/1e8c26825085a51dcd6b4b3dfe4c5352?family=HomepageBaukasten+Bold);
 
+  @font-face {font-family: "HomepageBaukasten Bold"; src: url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot"); src: url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.svg#HomepageBaukasten Bold") format("svg"); } 
 .cube-div {
   height: 100vh;
   width: 100%;
@@ -14,12 +16,12 @@
   /* justify-content: flex-end; */
   align-items: center;
   /* border: 4px solid black; */
-  font-family: "Paradox+Now";
-  background-color: #78A2CC;
+  font-family: "HomepageBaukasten Bold";
+  background-color: #D2D2CF;
 }
 
 .triangle {
-border: 3px solid red;
+/* border: 3px solid red; */
 }
 .pen-tri {
 height: 20rem;
@@ -32,8 +34,9 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center; 
-font-size: 38px;
+font-size: 28px;
 font-weight: lighter;
+width: 60%;
 }
 
 .paradox-info {

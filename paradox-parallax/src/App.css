@@ -1,6 +1,8 @@
 @import url(//db.onlinewebfonts.com/c/0ae0673edd2fd211e4dc52a1275e0b87?family=Inception);
 @import url(//db.onlinewebfonts.com/c/0f1b96ffaf193ffaf5c53fc394d54125?family=Lusta);
+@import url(//db.onlinewebfonts.com/c/1e8c26825085a51dcd6b4b3dfe4c5352?family=HomepageBaukasten+Bold);
 
+@font-face {font-family: "HomepageBaukasten Bold"; src: url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot"); src: url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.woff") format("woff"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/1e8c26825085a51dcd6b4b3dfe4c5352.svg#HomepageBaukasten Bold") format("svg"); } 
 /* @font-face {
   font-family: "ACFramedInverted" ;
   src: url("ACFramedInverted.otf") format("opentype");
@@ -115,7 +117,7 @@ body {
   display: flex;
   height: 80vh;
   width: 100%;
-  border: 4px solid red;
+  /* border: 4px solid red; */
   position: relative;
   /* top: 4rem; */
 }
@@ -124,7 +126,7 @@ body {
   height: 120vh;
   background-color: #96B9D0;
   position: relative;
-  top: 40vh
+  top: 45vh
 }
 
 .type-div {

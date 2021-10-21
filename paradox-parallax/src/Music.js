@@ -3,7 +3,7 @@ import "./Music.css";
 
 function Music() {
   return (
-    <div className="music-div">
+    <div className="movie-ex">
       <p>
         “The first rule about fight club is you don’t talk about fight club. The
         second rule about fight club is you don’t talk about fight club.” (Fight

@@ -1,10 +1,14 @@
+@import url(//db.onlinewebfonts.com/c/e1195b76e0fe5cddc9a0fa1dff69d718?family=Paradox+Mosaic);
+
+@font-face {font-family: "Paradox Mosaic"; src: url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.eot"); src: url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.woff") format("woff"), url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/e1195b76e0fe5cddc9a0fa1dff69d718.svg#Paradox Mosaic") format("svg"); }
 .artist-div {
-    height: 160vh;
+    height: 165vh;
     width: 100%;
-    background-color:#A4C3D2 ;
+    background-color:#272b2d ;
     position: relative;
     /* top: 10vh; */
-    border: 4px solid black
+    border: 4px solid black;
+    font-family: "Paradox Mosaic"
     /* background: url()  */
     /* background: radial-gradient(ellipse at center, rgba(0,0,0,0) 20%,rgba(0,0,0,1) 100%); */
     /* background: linear-gradient(to left, #898989 50%, #353535 100%); */
@@ -12,6 +16,26 @@
     /* background: no-repeat; */
     /* background-blend-mode: multiply; */
 
+}
+
+.mc-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.mc-font {
+    font-size: 55px;
+}
+
+.artist-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    position: relative;
+    left: 20%;
 }
 
 .escher-img {
@@ -33,8 +57,13 @@
 
 .new-slide {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    border: 2px solid red;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
     height: 35%;
+    width: 60%;
+    position: relative;
+    left: 12%;
+    font-size: 18px;
 }

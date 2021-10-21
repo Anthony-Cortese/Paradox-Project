@@ -42,9 +42,7 @@ function HomePage() {
       </div>
 
       <div className="parallax__layer parallax__layer--deep">
-        <div className="mcescher-div">
-          <Loop />
-        </div>
+        <div className="mcescher-div">{/* <Loop /> */}</div>
         <div className="background"></div>
       </div>
 
